@@ -11,7 +11,7 @@
   --font-sans: var(--font-dm-sans);
 }
 
-@media (prefers-color-scheme: dark) {
+
   :root {
     --primary-background: #0f172a;
     --secondary-background: #020617;
@@ -21,7 +21,7 @@
     --text-muted: #94a3b8;
     
   }
-}
+
 
 body {
   background-color: var(--primary-background);

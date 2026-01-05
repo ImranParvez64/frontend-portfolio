@@ -71,10 +71,10 @@ const Hero = () => {
           <div className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full flex items-center justify-center">
 
             {/* Glow Ring */}
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#38BDF8] to-[#22D3EE] blur-xl opacity-30"></div>
+            <div className="absolute inset-0 rounded-full bg-linear-to-r from-[#38BDF8] to-[#22D3EE] blur-xl opacity-30"></div>
 
             {/* Border Ring */}
-            <div className="absolute inset-0 rounded-full p-[3px] bg-gradient-to-r from-[#38BDF8] to-[#22D3EE]">
+            <div className="absolute inset-0 rounded-full p-0.75 bg-linear-to-r from-[#38BDF8] to-[#22D3EE]">
               <div className="w-full h-full rounded-full bg-[#020617]"></div>
             </div>
 

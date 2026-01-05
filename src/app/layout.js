@@ -1,6 +1,7 @@
 import { Geist, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/Components/Header";
+import Footer from "@/Components/Footer";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       >
         <Header/>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
